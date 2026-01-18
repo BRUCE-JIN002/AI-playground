@@ -21,7 +21,9 @@ const mcpClient = new MultiServerMCPClient({
   mcpServers: {
     "my-mcp-server": {
       command: "node",
-      args: ["/Users/jinxianxiang/Desktop/AI-playground/src/my-mcp-server.mjs"],
+      args: [
+        "/Users/jinxianxiang/Desktop/AI-playground/tool-test/src/my-mcp-server.mjs",
+      ],
     },
   },
 });
