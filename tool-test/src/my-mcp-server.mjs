@@ -11,7 +11,12 @@ const database = {
       email: "zhangsan@example.com",
       role: "admin",
     },
-    "002": { id: "002", name: "李四", email: "lisi@example.com", role: "user" },
+    "002": {
+      id: "002",
+      name: "李四",
+      email: "lisi@example.com",
+      role: "user",
+    },
     "003": {
       id: "003",
       name: "王五",
