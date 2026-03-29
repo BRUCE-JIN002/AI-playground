@@ -3,7 +3,6 @@ import { MultiServerMCPClient } from "@langchain/mcp-adapters";
 import { ChatOpenAI } from "@langchain/openai";
 import chalk from "chalk";
 import { HumanMessage, ToolMessage } from "@langchain/core/messages";
-console.log(process.env.OPENAI_API_KEY);
 
 const model = new ChatOpenAI({
   modelName: "qwen-plus",
